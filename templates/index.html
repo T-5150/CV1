@@ -3,20 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>CV App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-  <nav>
-      <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
 
-      </ul>
-  </nav>
-  <h1>CV App</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum dolore eum iste maxime molestias, mollitia numquam pariatur perferendis quibusdam suscipit tempore totam velit. Consequuntur dolorum expedita, incidunt libero nemo nesciunt placeat porro praesentium quas recusandae repellendus reprehenderit vitae, voluptatibus!</p>
- <br>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam atque, beatae dignissimos eos est et ipsa voluptates! Assumenda cupiditate deleniti dolore dolorum nesciunt qui sed sint veritatis. Ad aliquam architecto consequatur deleniti dignissimos doloremque ea eaque id impedit, incidunt laudantium maiores modi molestias praesentium quae quia repudiandae sed, suscipit.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>CV App</h1>
+        </div>
+    </div>
+    <p>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ea eos facere fuga incidunt, officiis provident quam quis. Accusantium aliquam eos ipsam necessitatibus officia optio pariatur quibusdam tempore, unde ut!</span><span>Consequatur delectus dolores dolorum ducimus eius et explicabo facere fugiat illum iste libero magnam magni, modi nemo nihil nostrum optio perferendis quam quis repellendus sapiente sed tenetur unde vel voluptatem.</span><span>Eveniet molestias similique tempore voluptate voluptatibus. Accusamus aliquam dicta exercitationem expedita ipsa iste laborum maxime nulla quod sapiente. Atque dolorum enim pariatur quasi saepe temporibus! Ad corporis distinctio ipsum ullam!</span><span>Accusamus, explicabo, labore? Deserunt dolor exercitationem placeat! Dolorem esse ipsam suscipit! Est illo itaque odit quae quidem, sint ut veniam voluptatibus. Ab deleniti dolorem, harum numquam sed temporibus voluptate voluptatibus.</span><span>A ab alias asperiores autem consectetur cumque distinctio doloremque doloribus eius esse impedit ipsa ipsam itaque labore laborum minus numquam perferendis quae quaerat, quo ratione reiciendis repudiandae similique voluptate, voluptatibus.</span><span>A delectus distinctio enim hic magnam pariatur quaerat quam sequi velit. Dolores excepturi nemo quibusdam sapiente. Accusamus eveniet id nemo praesentium totam. Esse est fuga labore molestiae nesciunt. Adipisci, ex!</span><span>Architecto autem corporis dolore id labore nam natus odit, praesentium quibusdam voluptas. Aut fugiat, odio! Atque dolore eius, eveniet excepturi, exercitationem, mollitia nisi numquam obcaecati odit ratione recusandae soluta vero.</span><span>Debitis iure natus nisi ratione recusandae repellat reprehenderit sint tenetur ullam. Aliquam aliquid beatae dolore esse fugiat labore libero nisi placeat, possimus quaerat ratione rem repudiandae. Aut autem molestias officia.</span><span>Ad amet autem commodi consectetur consequuntur eaque enim excepturi facere ipsum minus quas reiciendis repellat saepe, sit tempore totam voluptate? Ab aliquid culpa, earum fuga fugit minima pariatur sit vel?</span><span>Ab consequuntur ducimus laborum natus nulla quidem quisquam tenetur ullam voluptates. Asperiores aspernatur blanditiis consectetur delectus et fugiat illum laborum, maiores minima mollitia non quo, recusandae reiciendis rem saepe veniam.</span>
+    </p>
+    <div class="card" style="width: 18rem;">
+        <img src="https://placehold.co/450x300/png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
