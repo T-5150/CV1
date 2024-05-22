@@ -1,8 +1,9 @@
 from django.db import models
 
+
 # Create your models here.
 
-class GeneralSettings(models.Model):
+class GeneralSetting(models.Model):
     name = models.CharField(
         default='',
         max_length=254,
@@ -28,3 +29,13 @@ class GeneralSettings(models.Model):
     )
 
 
+def __str__(self):
+    return f'General Setting: {self.name}'
+
+
+
+
+class Meta:
+    vebose_name = 'General Setting'
+    vebose_name_plural = 'General Settings'
+    ordering = ('name',)
