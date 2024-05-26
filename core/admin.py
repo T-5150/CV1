@@ -47,3 +47,12 @@ class EducationAdmin(admin.ModelAdmin):
     list_editable = ['school_name', 'major', 'department', 'start_date', 'end_date', ]
     class Meta:
         model = Education
+
+
+@admin.register(SocialMedia)
+class SocialMediaAdmin(admin.ModelAdmin):
+    list_display = ['id', 'order', 'link', 'icon', 'created_date', 'updated_date', ]
+    search_fields = ['link', 'icon', ]
+    list_editable = ['order', 'link', 'icon', ]
+    class Meta:
+        model = SocialMedia
